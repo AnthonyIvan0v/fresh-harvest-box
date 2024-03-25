@@ -4,13 +4,12 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.29;
-  letter-spacing: -4%;
 }
 
 :root {
   --primary-black-color: #000000;
-  --primary-wite-color: #FFFFFF;
-  --primary-text--button-color: #AE1332;
+  --primary-white-color: #FFFFFF;
+  --secondary-text-color: #AE1332;
   --background-color: #AE1332;
   --secondary-background-color: #F5CE13;
   --accent-color: #A4CB66;
@@ -22,6 +21,7 @@ body {
 .container {
   width: 375px;
   padding: 0 20px;
+  margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -33,4 +33,115 @@ body {
   .container {
     width: 1280px;
   }
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--secondary-text-color);
+  font-weight: bold;
+}
+.logo:hover, .logo:focus {
+  color: var(--accent-color);
+}
+
+.logo-icon {
+  margin-right: 8px;
+  fill: currentColor;
+}
+
+.positon-elem-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  position: relative;
+}
+
+.button-mobile-menu {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  color: var(--background-color);
+}
+.button-mobile-menu:hover, .button-mobile-menu:focus {
+  color: var(--accent-color);
+}
+
+.button-mobile-menu svg {
+  fill: currentColor;
+}
+
+.mobile-menu {
+  background-color: var(--background-color);
+  text-align: center;
+  padding-top: 124px;
+  height: 100vh;
+  width: 100%;
+  pointer-events: auto;
+  opacity: 0;
+  visibility: 0;
+  position: fixed;
+  transform: translateY(100vh);
+}
+
+.mobile-menu.is-open {
+  pointer-events: auto;
+  opacity: 1;
+  visibility: 1;
+  transform: translateY(0);
+}
+
+.button-mobile-menu-close {
+  z-index: 999;
+  pointer-events: none;
+  opacity: 0;
+  visibility: 0;
+  position: absolute;
+  top: 23%;
+  right: 6%;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: var(--primary-white-color);
+  color: var(--background-color);
+}
+.button-mobile-menu-close:hover {
+  color: var(--accent-color);
+}
+
+.button-mobile-menu-close.is-show {
+  opacity: 1;
+  visibility: 1;
+  pointer-events: auto;
+}
+
+.button-mobile-menu-close svg {
+  stroke: currentColor;
+}
+
+.navigation-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: var(--primary-white-color);
+}
+
+.navigation-list-item:not(:first-child) {
+  margin-top: 16px;
+}
+
+.mobile-menu-link {
+  text-decoration: none;
+  color: var(--primary-white-color);
+}
+.mobile-menu-link:hover, .mobile-menu-link:focus {
+  color: var(--accent-color);
+}
+
+.uil-cart {
+  fill: currentColor;
 }/*# sourceMappingURL=index.css.map */

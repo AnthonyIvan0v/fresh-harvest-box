@@ -1,7 +1,28 @@
 <header>
-    <div class="container">
-        <a href="./index.html" class="logo"><svg width="16" height="16">
+    <div class="container positon-elem-header">
+        <a href="./index.html" class="logo"><svg width="16" height="16" class="logo-icon">
                 <use href="./images/sprite.svg#icon-logo"></use>
             </svg>fresh harvest box</a>
+        <button type="button" class="button-mobile-menu" data-menu-mobile-open><svg width="24" height="24">
+                <use href="./images/sprite.svg#icon-menu-burger"></use>
+            </svg></button>
+        <button type="button" class="button-mobile-menu-close" data-menu-mobile-close><svg width="24" height="24">
+                <use href="./images/sprite.svg#icon-close"></use>
+            </svg></button>
+
+    </div>
+    <div class="mobile-menu" data-menu-mobile>
+
+        <nav class="navigation container">
+            <ul class="navigation-list">
+                <li class="navigation-list-item"><a href="" class="mobile-menu-link">How It Works</a></li>
+                <li class="navigation-list-item"><a href="" class="mobile-menu-link">Fruits</a></li>
+                <li class="navigation-list-item"><a href="" class="mobile-menu-link">Contacts</a></li>
+                <li class="navigation-list-item"><a href="" class="mobile-menu-link"><svg width="28" height="28"
+                            class="uil-cart">
+                            <use href="./images/sprite.svg#icon-uil_cart"></use>
+                        </svg></a></li>
+            </ul>
+        </nav>
     </div>
 </header>
