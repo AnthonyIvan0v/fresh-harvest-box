@@ -17,4 +17,20 @@ body {
   --accent-background-color-icon: rgba(174, 19, 50, 0.1);
   --border-color-input: #B3B3B3;
   --placeholder-color-input: #808080;
+}
+
+.container {
+  width: 375px;
+  padding: 0 20px;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding: 0 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
 }/*# sourceMappingURL=index.css.map */
