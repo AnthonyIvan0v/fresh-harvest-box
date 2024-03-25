@@ -1,0 +1,19 @@
+.logo{
+    display: inline-flex;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--secondary-text-color);
+    font-weight: bold;
+
+    &:hover, &:focus{
+        color: var(--accent-color);
+    }
+}
+
+
+.logo-icon{
+    margin-right: 8px;
+    fill: currentColor;
+}
+
