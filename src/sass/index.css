@@ -5,4 +5,16 @@ body {
   font-weight: 400;
   line-height: 1.29;
   letter-spacing: -4%;
+}
+
+:root {
+  --primary-black-color: #000000;
+  --primary-wite-color: #FFFFFF;
+  --primary-text--button-color: #AE1332;
+  --background-color: #AE1332;
+  --secondary-background-color: #F5CE13;
+  --accent-color: #A4CB66;
+  --accent-background-color-icon: rgba(174, 19, 50, 0.1);
+  --border-color-input: #B3B3B3;
+  --placeholder-color-input: #808080;
 }/*# sourceMappingURL=index.css.map */
