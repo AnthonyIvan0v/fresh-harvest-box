@@ -1,0 +1,2 @@
+(()=>{const e={openMenuButton:document.querySelector("[data-menu-mobile-open]"),closeMenuButton:document.querySelector("[data-menu-mobile-close]"),menuMobile:document.querySelector("[data-menu-mobile]")};function n(){e.menuMobile.classList.toggle("is-open"),e.closeMenuButton.classList.toggle("is-show")}document.querySelectorAll(".mobile-menu-link").forEach((e=>{e.addEventListener("click",n)})),e.openMenuButton.addEventListener("click",n),e.closeMenuButton.addEventListener("click",n)})();
+//# sourceMappingURL=index.4f483e44.js.map
