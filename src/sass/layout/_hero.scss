@@ -12,9 +12,9 @@
 }
 
 .hero-title{
-    max-width: 330px;
+    max-width: 90%;
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
     color: var(--primary-white-color);
     text-transform: uppercase;
     font-size: 28px;
@@ -23,7 +23,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(8%,  -48%);
+    transform: translate(5%,  -48%);
     z-index: 1; 
 
 }
@@ -32,7 +32,7 @@
     border-bottom: 1px solid var(--primary-white-color);
     border-radius: 500px;
     padding: 0 12px 14px 12px;
-    width: 335px;
+    max-width: 335px;
     height: 509px;
     position: relative;
 }
@@ -42,7 +42,7 @@
     background-image: url(../images/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 311px;
+    max-width: 311px;
     height: 484px;
 }
 
